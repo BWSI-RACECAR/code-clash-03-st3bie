@@ -46,8 +46,8 @@ class Solution:
 
 
 def main():
-    string1 = input()
-    string2 = input()
+    string1 = input().strip()
+    string2 = input().strip()
 
     tc1 = Solution()
     ans = tc1.my_grocery_list(string1,string2)
