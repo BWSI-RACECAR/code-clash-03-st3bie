@@ -36,7 +36,7 @@ class Solution:
         result = []
         for i in list:
             if i not in result:
-                if (i != " "):
+                if (i != ""):
                     result.append(i)
 
         return result
